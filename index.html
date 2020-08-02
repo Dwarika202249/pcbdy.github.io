@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #020202;
+      cursor: crosshair;
+      height: 100vh;
+      font-family: cursive;
+    }
+
+    canvas {
+      display: block
+    }
+
+    h1 {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Source Sans Pro";
+      font-size: 5em;
+      font-weight: 900;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .playMe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      /* padding-bottom: 25px; */
+    }
+
+    #touch {
+      color: rgb(84, 175, 10);
+      cursor: pointer;
+      padding: 10px;
+      background-color: rgb(192, 236, 148);
+      border-radius: 8px;
+    }
+
+    button {
+      position: fixed;
+      left: 45%;
+      right: 50%;
+      top: 50%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="section1">
+    <div class="btn">
+      <a href="index2.html"><button id="touch">TOUCH
+          ME</button></a>
+    </div>
+    <canvas id="birthday">
+
+    </canvas>
+
+  </div>
+
+
+
+  <script src="style.js"></script>
+</body>
+
+
+</html>
